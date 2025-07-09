@@ -150,6 +150,21 @@
   <footer>
     © 2025 Linguava. Built with ❤️ to help you learn better.
   </footer>
+    <!-- Watson Assistant Script -->
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "YOUR-INTEGRATION-ID",  // 🔁 Replace with your actual integration ID
+      region: "us-south",                    // 🔁 Your region (most likely us-south)
+      serviceInstanceID: "YOUR-SERVICE-ID",  // 🔁 Replace with your actual service instance ID
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function () {
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/latest/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+
 </body>
 </html>
 
