@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Linguava - Learn with Fun</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 25%, #ffd3a5 50%, #c3fbd8 75%, #fdcfe8 100%);
+      background-size: 400% 400%;
+      animation: gradientMove 15s ease infinite;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      overflow-x: hidden;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    header, .features, .chatbot-section, footer {
+      animation: fadeInUp 1.2s ease both;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      animation-delay: 0.2s;
+    }
+
+    header img {
+      width: 80px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #444;
+    }
+
+    p.tagline {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .features {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 20px;
+      padding: 2rem;
+      max-width: 800px;
+      width: 100%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      animation-delay: 0.4s;
+    }
+
+    .features h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #222;
+      text-align: center;
+    }
+
+    .features ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .features li {
+      font-size: 1rem;
+      padding: 0.6rem 1rem;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+      color: #333;
+      transition: all 0.3s ease;
+    }
+
+    .features li:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 10px;
+      transform: scale(1.02);
+    }
+
+    .chatbot-section {
+      width: 100%;
+      max-width: 800px;
+      height: 500px;
+      border: none;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      background: #fff;
+      animation-delay: 0.6s;
+    }
+
+    footer {
+      margin-top: auto;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #444;
+      padding: 1rem;
+      animation-delay: 0.8s;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.postimg.cc/3Ngt8nFb/lingava.png" alt="Linguava Logo">
+    <h1>Linguava 🐦</h1>
+    <p class="tagline">Learn Languages. Talk Smart. With Linguava.</p>
+  </header>
+
+  <section class="features">
+    <h2>Why Choose Linguava?</h2>
+    <ul>
+      <li>🌍 Learn Spanish, French, Hindi, German & English</li>
+      <li>💬 Interactive chatbot for quick conversations</li>
+      <li>🎯 Personalized lessons based on your goals</li>
+      <li>📊 Track your learning progress</li>
+      <li>🎉 Fun quizzes and daily language games</li>
+    </ul>
+  </section>
+
+  
+  <footer>
+    © 2025 Linguava. Built with ❤️ to help you learn better.
+  </footer>
+</body>
+</html>
+
+
