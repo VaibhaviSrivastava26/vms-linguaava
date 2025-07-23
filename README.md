@@ -25,4 +25,4 @@ Linguava is an AI-powered chatbot designed to help users learn new languages int
 3. Start chatting with Linguava!
 
 ## 📬 Contact
-Made by [Vaibhavi Murti](https://github.com/VaibhaviSrivastava26) ✨
+Made by [Vaibhavi Srivastava](https://github.com/VaibhaviSrivastava26) ✨
